@@ -1,0 +1,18 @@
+# CampusFlow — static site, no build step.
+# Netlify Drop: drag the `public` folder. Git deploy: this file is picked up automatically.
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
