@@ -882,7 +882,7 @@
     switch (form.dataset.form) {
       case 'login': {
         const u = CF.login(fd.email, fd.password);
-        if (!u) { $('#login-error').textContent = 'Wrong email or password. Try a demo account below.'; return; }
+        if (!u) { $('#login-error').textContent = 'Wrong email or password. Try again with valid email.'; return; }
         location.hash = u.role === 'admin' ? '#/admin' : '#/dashboard';
         render();
         toast(`Welcome, ${esc(u.name)}`);
