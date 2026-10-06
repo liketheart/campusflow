@@ -135,7 +135,6 @@
       <section class="login-panel">
         <div class="login-card">
           <h2>Sign in</h2>
-          <p class="muted">Use your campus account, or pick a demo account below.</p>
           <form data-form="login" novalidate>
             <div class="field"><label for="email">Email</label><input class="input" id="email" name="email" type="email" autocomplete="username" placeholder="Studen@gmail.com OR Admin@gmail.com" required /></div>
             <div class="field"><label for="password">Password</label><input class="input" id="password" name="password" type="password" autocomplete="current-password" placeholder="••••••••" required /></div>
