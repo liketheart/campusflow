@@ -162,7 +162,6 @@
           ${navLinks}
         </nav>
         <div class="stack" style="gap:.5rem;margin-top:auto">
-          <button class="btn btn-ghost btn-sm" data-action="reset-demo" style="justify-content:flex-start">${I.reset} Reset demo data</button>
           <div class="user-card">
             <div class="avatar">${esc(initials)}</div>
             <div class="who"><b>${esc(user.name)}</b><small>${esc(user.meta)}</small></div>
