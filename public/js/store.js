@@ -9,7 +9,7 @@
   const SESSION_KEY = 'campusflow:session';
 
   const USERS = [
-    { email: 'akshath@gmail.com', password: '12345', role: 'student', name: 'Akshath kumar', meta: 'ME 1st Year' },
+    { email: 'akshath@gmail.com', password: '12345', role: 'student', name: 'Akshath kumar', meta: 'MR 1st Year' },
     { email: 'priyarao@gmail.com', password: '12345', role: 'admin', name: 'Dr. Priya Rao', meta: 'Campus Services Desk' },
   ];
 
