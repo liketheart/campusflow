@@ -120,7 +120,7 @@
     return `
     <div class="login fade-in">
       <section class="login-brand">
-        <div class="logo">${logoMark} CampusFlow</div>
+        <div class="logo">${logoMark} SIT CampusFlow</div>
         <div>
           <h1>One campus.<br/>One login.<br/><em>Everything flows.</em></h1>
           <p class="lead">Request certificates, lab kits, repairs and leave — and plan every exam — from a single dashboard and a single calendar.</p>
