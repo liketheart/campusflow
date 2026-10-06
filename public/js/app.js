@@ -520,9 +520,8 @@
           <p class="muted" style="font-size:.84rem">1-hour blocks, evenings first. Subjects with closer exams and more remaining topics get more slots. Missed blocks and completed topics update the remaining plan.</p>
           <div class="row">
             <button class="btn btn-primary" data-action="regen">${I.refresh} Generate schedule</button>
-            <button class="btn" data-action="ai-regen" ${ui.aiBusy ? 'disabled' : ''}>${I.spark} ${ui.aiBusy ? 'Asking Claude…' : 'Plan with Claude'}</button>
+            <a href="https://claude.com/" target="_blank" rel="noopener noreferrer" class="btn">${I.spark} Plan with Claude</a>
           </div>
-          <p class="faint" style="font-size:.76rem;margin:.6rem 0 0">Claude is optional — when it isn’t configured, the rule-based planner is used automatically.</p>
         </section>
 
         ${missed.length ? `
